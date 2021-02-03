@@ -91,7 +91,6 @@ body {
   font-size: 1.125rem;
   color: #9698a6;
   line-height: 1.3;
-  min-height: 300vh;
   overflow-x: hidden;
 }
 
@@ -430,6 +429,12 @@ button:hover::before, .button:hover::before {
             order: 2;
     height: 41rem;
     background-image: none;
+  }
+}
+
+@media (min-width: 1650px) {
+  .hero__image::before {
+    margin-left: 20%;
   }
 }
 

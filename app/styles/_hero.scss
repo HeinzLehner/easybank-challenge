@@ -30,6 +30,9 @@
     }
 
      &::before {
+      @media (min-width: 1650px) {
+        margin-left: 20%;
+      }
 
       @include breakpoint-up(large){
         content: "";
